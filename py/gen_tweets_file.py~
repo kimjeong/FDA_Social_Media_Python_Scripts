@@ -1,0 +1,19 @@
+
+import sys
+import os
+import json
+
+
+if __name__ == '__main__':
+
+    twitter_json_file = open('json_twitter_10_01_13.txt', 'r')
+
+    tw_json = json.loads(twitter_json_file.read())
+
+    keys = tw_json.keys()
+    ctr = 0
+    for j_key in keys:
+        print str(tw_json[j_key])
+        ctr = ctr + 1
+        if ctr > 10:
+            break

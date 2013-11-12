@@ -1,0 +1,27 @@
+import nltk
+from gensim import corpora, models, similarities
+
+doc_fh = oepn('../data/merged_corpus.txt', 'r')
+
+stopwords = nltk.corpus.stopwords.words('english')
+
+texts = []
+for line in doc_fh:
+    for word in line.split():
+        if word not in stopwords:
+            texts.append(word.strip())
+
+all_tokens = sum(texts, [])
+
+tokens_once = set(word for word in set(all_tokens) if all_tokens.count(word) == 1)
+texts = [[word for word in text if word not in tokens_once] for text in texts]
+dictionary = corpora.Dictionary(texts)
+dictionary.save('merged_dictionary.dict')
+corpus = [dictionary.doc2bow(text) for text in texts]
+corpora.MmCorpus.serialize('merged_corpus.mm', corpus)
+
+id2word = gensim.corpora.Dictionary.load_from_text('merged_dictionary.dict')
+mm = gensim.corpora.MmCorpus('merged_corpus.mm')
+
+lsi = gensim.models.lsimodel.LsiModel(corpus=mm, id2word=id2word, num_topics=20)
+lsi.print_topics(10)

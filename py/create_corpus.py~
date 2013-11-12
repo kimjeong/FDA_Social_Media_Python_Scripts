@@ -1,0 +1,14 @@
+#!/usr/bin/python
+
+fd = open('../data/Book1.csv', 'r')
+base_name = 'cp1_'
+
+cntr = 1
+for line in fd:
+    out_file_name = base_name + cntr + '.txt'
+    fw = open(out_file_name, 'w')
+    fw.write(line)
+    fw.close()
+    cntr = cntr + 1
+
+fd.close()

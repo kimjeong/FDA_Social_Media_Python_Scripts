@@ -1,0 +1,85 @@
+  {
+    "name":"Twitter Sentiment Analysis",
+    "children": [
+        {"name": "Group 1",
+        "children": [
+            {"name": "ecig", "value":38.278, "intensity":26.23608311}
+        ]
+    },
+        {"name": "Group 2",
+        "children": [
+            {"name": "ego", "value":17.681, "intensity":71.5083230109},
+            {"name": "cigarette", "value":17.124, "intensity":71.5083230109},
+            {"name": "puff", "value":10.72, "intensity":71.5083230109},
+            {"name": "product", "value":5.986, "intensity":71.5083230109},
+            {"name": "engine", "value":5.986, "intensity":71.5083230109},
+            {"name": "search", "value":5.429, "intensity":71.5083230109}
+        ]
+    },
+        {"name": "Group 3",
+        "children": [
+            {"name": "smoke", "value":44.442, "intensity":5.39604212628},
+            {"name": "asked", "value":24.663, "intensity":5.39604212628},
+            {"name": "step", "value":24.187, "intensity":5.39604212628},
+            {"name": "younger", "value":23.949, "intensity":5.39604212628},
+            {"name": "nazi", "value":23.71, "intensity":5.39604212628},
+            {"name": "killed", "value":23.71, "intensity":5.39604212628},
+            {"name": "grandpa", "value":23.472, "intensity":5.39604212628}
+        ]
+    },
+        {"name": "Group 4",
+        "children": [
+            {"name": "battery", "value":10.927, "intensity":29.0792940498},
+            {"name": "kit", "value":6.436, "intensity":29.0792940498},
+            {"name": "boutique", "value":5.538, "intensity":29.0792940498}
+        ]
+    },
+        {"name": "Group 5",
+        "children": [
+            {"name": "sale", "value":17.471, "intensity":42.8725004567},
+            {"name": "follow", "value":17.274, "intensity":42.8725004567},
+            {"name": "fda", "value":14.905, "intensity":42.8725004567},
+            {"name": "decides", "value":13.72, "intensity":42.8725004567},
+            {"name": "interfere", "value":13.325, "intensity":42.8725004567},
+            {"name": "suit", "value":13.128, "intensity":42.8725004567},
+            {"name": "european", "value":7.6, "intensity":42.8725004567},
+            {"name": "yesterday", "value":6.811, "intensity":42.8725004567},
+            {"name": "parliament", "value":6.613, "intensity":42.8725004567},
+            {"name": "news", "value":5.231, "intensity":42.8725004567}
+        ]
+    },
+        {"name": "Group 6",
+        "children": [
+            {"name": "pour", "value":9.346, "intensity":114.906003679}
+        ]
+    },
+        {"name": "Group 7",
+        "children": [
+            {"name": "juice", "value":5.757, "intensity":0.0}
+        ]
+    },
+        {"name": "Group 8",
+        "children": [
+            {"name": "ban", "value":13.449, "intensity":74.906309435},
+            {"name": "shutdown", "value":5.57, "intensity":74.906309435},
+            {"name": "delay", "value":5.57, "intensity":74.906309435},
+            {"name": "government", "value":5.298, "intensity":74.906309435}
+        ]
+    },
+        {"name": "Group 9",
+        "children": [
+        ]
+    },
+        {"name": "Group 10",
+        "children": [
+            {"name": "week", "value":18.884, "intensity":36.7371035939},
+            {"name": "free", "value":18.884, "intensity":36.7371035939},
+            {"name": "giveaway", "value":17.84, "intensity":36.7371035939},
+            {"name": "win", "value":17.423, "intensity":36.7371035939},
+            {"name": "ultimate", "value":14.293, "intensity":36.7371035939},
+            {"name": "review", "value":9.703, "intensity":36.7371035939},
+            {"name": "electronic", "value":9.494, "intensity":36.7371035939}
+        ]
+    }
+    ]
+ }

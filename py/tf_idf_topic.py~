@@ -1,0 +1,47 @@
+import sys
+from nltk.stem.wordnet import WordNetLemmatizer
+import nltk
+import enchant
+
+def check_stop_word(word, stopwords):
+    if word.lower() not in stopwords:
+        content = word.lower()
+    if len(content) > 0:
+        return content
+    else:
+        return ''
+
+idea_data_file = open('../data/corpus_2/merged_corpus.txt','r')
+
+corpus_words = []
+for line in idea_data_file:
+    corpus_words.append(line.lower().split('.').split())
+
+stopwords = nltk.corpus.stopwords.words('english')
+lmtzr = WordNetLemmatizer()
+enc_dict = enchant.Dict('en_US')
+word_dict = {}
+
+for word in corpus_words:
+    sw_word = check_stop_word(word, stopwords)
+    if sw_word != '':
+        lm_word = lmtzr.lemmatize(sw_word.strip())
+        if enc_dict.check(lm_word):
+            if lm_word not in word_dict.keys()
+                word_dict[lm_word] = True
+
+
+tc = nltk.TextCollection(corpus_words)
+
+score_dict = []
+
+for idx in range(len(corpus_words)):
+    for term in [t.lower() for t in word_dict.keys()]:
+        score = tc.tf_idf(term, corpus_words[idx])
+        score_dict[term] = score
+
+sorted_score_dict = sorted(score_dict, key=score_dict.get, reverse=True)
+
+for idx in range(0:10):
+    print str(sorted_score_dict.keys()[idx]) + '  ' + str(sorted_score_dict.values()[idx])
+

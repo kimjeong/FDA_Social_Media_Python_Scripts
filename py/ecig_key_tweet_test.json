@@ -1,0 +1,160 @@
+{
+    "nodes":[
+        {"name":"ecig","group":0},
+        {"name":"ego","group":1},
+        {"name":"cigarette","group":1},
+        {"name":"puff","group":1},
+        {"name":"product","group":1},
+        {"name":"engine","group":1},
+        {"name":"search","group":1},
+        {"name":"smoke","group":2},
+        {"name":"asked","group":2},
+        {"name":"step","group":2},
+        {"name":"younger","group":2},
+        {"name":"nazi","group":2},
+        {"name":"killed","group":2},
+        {"name":"grandpa","group":2},
+        {"name":"battery","group":3},
+        {"name":"kit","group":3},
+        {"name":"boutique","group":3},
+        {"name":"sale","group":4},
+        {"name":"follow","group":4},
+        {"name":"fda","group":4},
+        {"name":"decides","group":4},
+        {"name":"interfere","group":4},
+        {"name":"suit","group":4},
+        {"name":"european","group":4},
+        {"name":"yesterday","group":4},
+        {"name":"parliament","group":4},
+        {"name":"news","group":4},
+        {"name":"pour","group":5},
+        {"name":"juice","group":6},
+        {"name":"ban","group":7},
+        {"name":"shutdown","group":7},
+        {"name":"delay","group":7},
+        {"name":"government","group":7},
+        {"name":"week","group":9},
+        {"name":"free","group":9},
+        {"name":"giveaway","group":9},
+        {"name":"win","group":9},
+        {"name":"ultimate","group":9},
+        {"name":"review","group":9},
+        {"name":"electronic","group":9},
+    ],
+    "links":[
+        {"source":0,"target":7,"value":5000},
+        {"source":0,"target":8,"value":5000},
+        {"source":0,"target":9,"value":5000},
+        {"source":0,"target":10,"value":5000},
+        {"source":0,"target":11,"value":5000},
+        {"source":0,"target":12,"value":5000},
+        {"source":0,"target":13,"value":5000},
+        {"source":7,"target":8,"value":5000},
+        {"source":7,"target":9,"value":5000},
+        {"source":7,"target":10,"value":5000},
+        {"source":7,"target":11,"value":5000},
+        {"source":7,"target":12,"value":5000},
+        {"source":7,"target":13,"value":5000},
+        {"source":8,"target":9,"value":5000},
+        {"source":8,"target":10,"value":5000},
+        {"source":8,"target":11,"value":5000},
+        {"source":8,"target":12,"value":5000},
+        {"source":8,"target":13,"value":5000},
+        {"source":9,"target":10,"value":5000},
+        {"source":9,"target":11,"value":5000},
+        {"source":9,"target":12,"value":5000},
+        {"source":9,"target":13,"value":5000},
+        {"source":10,"target":11,"value":5000},
+        {"source":10,"target":12,"value":5000},
+        {"source":10,"target":13,"value":5000},
+        {"source":11,"target":12,"value":5000},
+        {"source":11,"target":13,"value":5000},
+        {"source":12,"target":13,"value":5000},
+    ],
+    "keys":[
+        {"source":0,"target":7,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":0,"target":8,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":0,"target":9,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":0,"target":10,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":0,"target":11,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":0,"target":12,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":0,"target":13,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":7,"target":8,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":7,"target":9,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":7,"target":10,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":7,"target":11,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":7,"target":12,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":7,"target":13,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":8,"target":9,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":8,"target":10,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":8,"target":11,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":8,"target":12,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":8,"target":13,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":9,"target":10,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":9,"target":11,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":9,"target":12,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":9,"target":13,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":10,"target":11,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":10,"target":12,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":10,"target":13,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":11,"target":12,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":11,"target":13,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        {"source":12,"target":13,"value":[
+            "388204425594306560-Thu Oct 10 07:28:42 +0000 2013-00001805"]
+        },
+        ]
+    }

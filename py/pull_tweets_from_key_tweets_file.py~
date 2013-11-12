@@ -1,0 +1,21 @@
+import os
+import sys
+
+if __name__ == '__main__':
+
+
+    tweet_fh = open('../data/key_tweets_10_10_2013.txt', 'r')    
+    tweet_text_fh = open('../data/text_tweets_11_04_2013.txt', 'w')
+    for tweet in tweet_fh:
+
+        tw_sp = tweet.split('==')
+        tw_key = tw_sp[0]
+        tw_text = tw_sp[1]
+        tw_text_split = tw_text.split()
+
+        tw_text_join = ' '.join(tw_text_split)
+        write_str = tw_text_join + '\n'
+        tweet_text_fh.write(write_str)
+
+    tweet_text_fh.close()
+    tweet_fh.close()
